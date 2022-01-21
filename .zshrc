@@ -77,6 +77,7 @@ plugins=(
     git
     web-search
     zsh-autosuggestions
+    zsh-syntax-highlighting
     copydir
     copyfile
     copybuffer
