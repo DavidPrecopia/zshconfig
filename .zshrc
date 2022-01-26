@@ -85,6 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export EDITOR="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
