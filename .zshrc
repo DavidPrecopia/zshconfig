@@ -70,7 +70,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    # git
+    git
     zsh-autosuggestions
     zsh-syntax-highlighting
     web-search
@@ -78,6 +78,7 @@ plugins=(
     copyfile
     copybuffer
     dirhistory
+    you-should-use $plugins
 )
 
 source $ZSH/oh-my-zsh.sh
