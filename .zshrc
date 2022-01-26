@@ -73,12 +73,12 @@ plugins=(
     git
     zsh-autosuggestions
     zsh-syntax-highlighting
+    you-should-use
     web-search
     copydir
     copyfile
     copybuffer
     dirhistory
-    you-should-use $plugins
 )
 
 source $ZSH/oh-my-zsh.sh
