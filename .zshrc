@@ -75,10 +75,10 @@ plugins=(
     zsh-syntax-highlighting
     you-should-use
     web-search
-    copydir
-    copyfile
-    copybuffer
     dirhistory
+    copybuffer
+    #copydir
+    #copyfile
 )
 
 source $ZSH/oh-my-zsh.sh
