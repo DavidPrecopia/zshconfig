@@ -77,7 +77,7 @@ plugins=(
     web-search
     dirhistory
     copybuffer
-    #copydir
+    #copypath
     #copyfile
 )
 
@@ -113,9 +113,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# To customize prompt, run `p10k configure` or edit ~/zshconfig//.p10k.zsh.
-[[ ! -f ~/zshconfig//.p10k.zsh ]] || source ~/zshconfig//.p10k.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/zshconfig/.p10k.zsh.
 [[ ! -f ~/zshconfig/.p10k.zsh ]] || source ~/zshconfig/.p10k.zsh
