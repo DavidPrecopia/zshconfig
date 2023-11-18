@@ -73,10 +73,10 @@ plugins=(
     git
     zsh-autosuggestions
     zsh-syntax-highlighting
-    you-should-use
-    web-search
-    dirhistory
-    copybuffer
+    #you-should-use
+    #web-search
+    #dirhistory
+    #copybuffer
     #copypath
     #copyfile
 )
