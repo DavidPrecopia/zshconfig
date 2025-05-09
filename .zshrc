@@ -105,9 +105,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ytdlp="$HOME/scripts/download_videos.zsh"
-alias convertwebm="$HOME/scripts/convert_webm.zsh"
-alias convertmkv="$HOME/scripts/convert_mkv.zsh"
+alias ytdlp="$HOME/zshconfig/scripts/download_videos.zsh"
+alias convertwebm="$HOME/zshconfig/scripts/convert_webm.zsh"
+alias convertmkv="$HOME/zshconfig/scripts/convert_mkv.zsh"
 
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export EDITOR="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
