@@ -106,6 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ytdlp="$HOME/zshconfig/scripts/download_videos.zsh"
+alias ytdlpaudio="$HOME/zshconfig/scripts/download_audio_only.zsh"
 alias convertwebm="$HOME/zshconfig/scripts/convert_webm.zsh"
 alias convertmkv="$HOME/zshconfig/scripts/convert_mkv.zsh"
 
