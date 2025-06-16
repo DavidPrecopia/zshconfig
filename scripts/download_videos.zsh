@@ -13,6 +13,9 @@ cd "$DOWNLOAD_DIR" || exit 1
 if [[ "$URL" == *"playlist"* || "$URL" == *"&list="* ]]; then
   echo "Detected playlist."
   yt-dlp -f "bestvideo+bestaudio/best" --yes-playlist -o "%(playlist_index)s - %(title)s.%(ext)s" "$URL"
+elif [[ "$URL" == *"x.com"* ]]; then
+  echo "Detected Twitter."
+  yt-dlp --cookies-from-browser chrome "$URL"
 else
   echo "Detected single video."
   yt-dlp "$URL"
