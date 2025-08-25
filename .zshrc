@@ -101,14 +101,11 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ytdlp="$HOME/zshconfig/scripts/download_videos.zsh"
 alias ytdlpaudio="$HOME/zshconfig/scripts/download_audio_only.zsh"
 alias convertwebm="$HOME/zshconfig/scripts/convert_webm.zsh"
 alias convertmkv="$HOME/zshconfig/scripts/convert_mkv.zsh"
+alias convertmp4="$HOME/zshconfig/scripts/convert_mp4.zsh"
 
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export EDITOR="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
